@@ -1,0 +1,62 @@
+
+  .chicken{
+    margin: 0 10% 0 20%;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.35vw;
+    padding: 0.3vw 0;
+    line-height: 1.8vw;
+  }
+
+  .title {
+    font-family: 'Lora', serif;
+    font-size: 4.2vw;
+    margin: 0 10% 0 20%;
+    line-height:4.5vw;
+  }
+
+  .headers{
+    margin: 4% 10% 0 20%;
+    font-size: 3vw;
+    font-family: 'Lora', serif;
+    line-height: 3.5vw;
+  }
+
+  img{
+    width: 70%;
+    margin: 0 10% 0 20%;
+  }
+
+  .smalltext{
+    margin: 0 10% 0 20%;
+    font-family: 'Merriweather', serif;
+    font-size: 1vw;
+    padding: 0.4vw 0;
+    color: grey;
+  }
+
+  .differenttext{
+    color: grey;
+    font-size: 1.2vw;
+    margin: 0 10% 0 20%;
+    padding: 0.3vw 0;
+    line-height: 1.8vw;
+    font-family: 'Merriweather', serif;
+  }
+  .gridthing{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-auto-flow: row;
+  }
+
+  .sidepics{
+    background-color: blue;
+  }
+
+  .info{
+    font-size: 1.1vw;
+    margin: 0 10% 0 20%;
+    padding: 0.3vw 0;
+    line-height: 1.8vw;
+    font-family: 'Calibri', serif;
+
+  }
