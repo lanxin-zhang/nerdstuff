@@ -26,6 +26,12 @@
     margin: 0 10% 0 20%;
   }
 
+  .smallerimage{
+    width: 70%;
+    margin: 2% 10% 0 20%;
+
+  }
+
   .smalltext{
     margin: 0 10% 0 20%;
     font-family: 'Merriweather', serif;
@@ -36,11 +42,11 @@
 
   .differenttext{
     color: grey;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     margin: 0 10% 0 20%;
     padding: 0.3vw 0;
     line-height: 1.8vw;
-    font-family: 'Merriweather', serif;
+    font-family: 'Calibri', serif;
   }
   .gridthing{
     display: grid;
@@ -49,7 +55,7 @@
   }
 
   .sidepics{
-    background-color: blue;
+    background-color: green;
   }
 
   .info{
