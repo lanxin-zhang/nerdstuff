@@ -9,9 +9,9 @@
 
 .title {
   font-family: 'Lora', serif;
-  font-size: 4vw;
+  font-size: 3.7vw;
   margin: 0 10% 0 20%;
-  line-height:4.5vw;
+  line-height: 4vw;
 }
 
 .headers{
@@ -42,10 +42,10 @@
 
 .differenttext{
   color: grey;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   margin: 0 10% 0 20%;
   padding: 0.3vw 0;
-  line-height: 1.8vw;
+  line-height: 1.5vw;
   font-family: 'Calibri', serif;
 }
 
@@ -91,8 +91,9 @@
   font-size: 1.1vw;
   margin: 0 10% 0 20%;
   padding: 0.3vw 0;
-  line-height: 1.8vw;
+  line-height: 1.4vw;
   font-family: 'Calibri', serif;
+  font-weight: bold;
 
 }
 a{
