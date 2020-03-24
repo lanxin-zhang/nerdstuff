@@ -97,11 +97,15 @@
 
 }
 a{
+  color: black;
+}
+
+.sidelinks{
   text-decoration:none;
   color: black;
 }
 
-a:hover{
+.sidelinks:hover{
   text-decoration: underline;
 
 }
