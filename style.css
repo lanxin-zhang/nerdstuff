@@ -9,7 +9,7 @@
 
 .title {
   font-family: 'Lora', serif;
-  font-size: 3.7vw;
+  font-size: 3vw;
   margin: 0 10% 0 20%;
   line-height: 4vw;
 }
@@ -29,8 +29,28 @@
 .smallerimage{
   width: 70%;
   margin: 2% 10% 0 20%;
-
 }
+
+.navbar-brand{
+  font-family: 'Merriweather', sans-serif;
+  font-weight: bold;
+  font-size: 2.6vw;
+}
+nav{
+  height: 10%;
+  border-bottom: 1px solid #DFDFDF;
+}
+
+.nav-item{
+  font-family: 'Crimson Text', sans-serif;
+  font-size: 1.4vw;
+}
+
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding: 0 1.4rem;
+}
+
 
 .smalltext{
   margin: 0 10% 0 20%;
@@ -56,6 +76,63 @@
   margin-top: 6%;
 }
 
+.frontpagetitle{
+  font-family: 'Merriweather', sans-serif;
+  font-size: 5vw;
+  font-weight: bold;
+  text-align: center;
+  margin: 2% 0 0 0;
+}
+
+
+.info{
+  font-size: 1.1vw;
+  margin: 0 10% 0 20%;
+  padding: 0.3vw 0;
+  line-height: 1.4vw;
+  font-family: 'Calibri', serif;
+  font-weight: bold;
+
+}
+
+a{
+  color: black;
+}
+
+
+a:hover{
+  color: black;
+}
+
+hr {
+  border: 0.1em solid black;
+  margin-right: 25%;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+
+.subline {
+  border-width: 0.05em;
+}
+
+.navbar-brand{
+  margin-left: 0.5%;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidegrid{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-left: 10%;
+  margin-right: 25%;
+  margin-top: 4%;
+}
+
 .sidebar{
   margin: 3% 35% 0 0;
   text-align: center;
@@ -73,36 +150,23 @@
   width: 100%;
 }
 
-.sidetext{
-  font-size: 1.9vw;
-  font-family: 'Crimson Text', serif;
-  margin: 0 0 10% 0;
-
-}
-
 .morearticles{
-  font-family: 'Merriweather', sans-serif;
-  font-size: 3vw;
+  font-family: 'PT Serif', serif;
+  font-size: 2.2vw;
   text-align: center;
-  margin: 10% 35% 0 0;
-}
-
-.info{
-  font-size: 1.1vw;
-  margin: 0 10% 0 20%;
-  padding: 0.3vw 0;
-  line-height: 1.4vw;
-  font-family: 'Calibri', serif;
-  font-weight: bold;
-
-}
-a{
-  color: black;
+  margin: 35% 25% 0 10%;
 }
 
 .sidelinks{
-  text-decoration:none;
+  text-decoration: none;
   color: black;
+  font-size: 1.1vw;
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+}
+
+.sideblock{
+  margin-left: 4%;
 }
 
 .sidelinks:hover{
@@ -137,7 +201,8 @@ a{
 }
 
 .main {
-  margin-top: 5%; /* Add a top margin to avoid content overlay */
+  margin-top: 0%; /* Add a top margin to avoid content overlay */
+  color: white;
 }
 
 .navigation{
