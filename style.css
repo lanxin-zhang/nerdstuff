@@ -105,14 +105,14 @@ a:hover{
 }
 
 hr {
-  border: 0.1em solid black;
+  border: medium solid black;
   margin-right: 25%;
   margin-left: 10%;
   margin-top: 1%;
 }
 
 .subline {
-  border-width: 0.05em;
+  border-width: thin;
 }
 
 .navbar-brand{
