@@ -105,7 +105,8 @@ a:hover{
 }
 
 hr {
-  border: medium solid black;
+  border: medium black;
+  border: solid;
   margin-right: 25%;
   margin-left: 10%;
   margin-top: 1%;
