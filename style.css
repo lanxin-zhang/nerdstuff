@@ -1,4 +1,16 @@
 
+.alignleft{
+  float: left;
+}
+
+.alignright{
+  float: right;
+}
+
+.episodelink{
+  text-decoration: underline;
+
+}
 .chicken{
   margin: 0 10% 0 20%;
   font-family: 'Crimson Text', serif;
