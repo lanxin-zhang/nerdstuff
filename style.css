@@ -7,6 +7,27 @@
   float: right;
 }
 
+.article{
+  font-family: 'Noto Serif JP', serif;
+  font-size: 2vw;
+  font-weight: bold;
+  
+  line-height: 2vw;
+}
+
+.subarticle{
+  font-family: 'Merriweather', serif;
+  font-size: 1vw;
+  line-height: 0.5vw;
+}
+
+.subtext{
+  font-family: 'Crimson Text', serif;
+  font-size: 1.1vw;
+  line-height: 1.1vw;
+  margin-top: 3%;
+}
+
 .episodelink{
   text-decoration: underline;
 
@@ -26,6 +47,15 @@
   line-height: 4vw;
 }
 
+.title2{
+  font-family: 'Lora', serif;
+  font-size: 3vw;
+  margin: 7% 10% 0 7%;
+  line-height: 4vw;
+  }
+
+
+
 .headers{
   margin: 4% 10% 0 20%;
   font-size: 3vw;
@@ -43,25 +73,6 @@
   margin: 2% 10% 0 20%;
 }
 
-.navbar-brand{
-  font-family: 'Merriweather', sans-serif;
-  font-weight: bold;
-  font-size: 2.6vw;
-}
-nav{
-  height: 10%;
-  border-bottom: 1px solid #DFDFDF;
-}
-
-.nav-item{
-  font-family: 'Crimson Text', sans-serif;
-  font-size: 1.4vw;
-}
-
-
-.navbar-expand-md .navbar-nav .nav-link {
-    padding: 0 1.4rem;
-}
 
 
 .smalltext{
@@ -88,6 +99,22 @@ nav{
   margin-top: 6%;
 }
 
+.gridthing2{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-auto-flow: row;
+  margin-left: 7%;
+  margin-right: 25%;
+
+}
+
+.rightcolumn{
+  margin-left: 2%;
+}
+.ulspacing{
+  margin-left: 7%;
+}
+
 .frontpagetitle{
   font-family: 'Merriweather', sans-serif;
   font-size: 5vw;
@@ -107,6 +134,10 @@ nav{
 
 }
 
+.distance{
+  margin-bottom: 10%;
+}
+
 a{
   color: black;
 }
@@ -117,26 +148,38 @@ a:hover{
 }
 
 hr {
-  border: medium black;
-  border: solid;
+  border: 0.2vmax black;
+  border-style: solid;
   margin-right: 25%;
   margin-left: 10%;
+  background-color: black;
   margin-top: 1%;
 }
 
 .subline {
+  border-width: 0.1vmax;
+}
+
+.undertitle{
+  margin-left: 7%;
+  margin-top: 0.5%;
+}
+
+.undertitle2{
+  margin-left: 7%;
+  margin-top: 1%;
+  margin-bottom: 1%;
   border-width: thin;
 }
 
-.navbar-brand{
-  margin-left: 0.5%;
-}
+
 
 ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 
 .sidegrid{
   display: grid;
@@ -193,25 +236,33 @@ ul{
   position: fixed;
   top: 0;
   width: 100%;
+  border-bottom: solid;
+  border-bottom-width: 0.1em;
+  border-bottom-color:  rgb(167, 167, 167);
+
 }
 
-.topnav p {
+.topnav a {
   float: left;
+  display: block;
   text-align: center;
-  padding: 1.5% 1%;
+  font-family: 'Crimson Text', serif;
+  padding: 1.5% 2% 1.5% 2%;
   text-decoration: none;
-  font-size: 3vw;
-}
-
-.topnav p:hover {
-  background-color: #ddd;
+  font-size: 1.5vw;
   color: black;
 }
 
-.topnav p.active {
-  background-color: #4CAF50;
-  color: white;
+.topnav p{
+  float: left;
+  display: block;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  padding: 1.8% 2% 1.5% 2%;
+  font-size: 1.5vw;
+  color: black;
 }
+
 
 .main {
   margin-top: 0%; /* Add a top margin to avoid content overlay */
