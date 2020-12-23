@@ -38,6 +38,7 @@
   font-size: 1.35vw;
   padding: 0.3vw 0;
   line-height: 1.8vw;
+  color: black;
 }
 
 .title {
@@ -247,7 +248,7 @@ ul{
   display: block;
   text-align: center;
   font-family: 'Crimson Text', serif;
-  padding: 1.5% 2% 1.5% 2%;
+  padding: 2%;
   text-decoration: none;
   font-size: 1.5vw;
   color: black;
